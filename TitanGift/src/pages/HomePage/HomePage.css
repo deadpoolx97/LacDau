@@ -1,0 +1,17 @@
+.thumb {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.img-thumb {
+  width: 600px;
+  margin: 0 4px;
+  transition: all 1s ease-in-out;
+}
+.img-thumb:hover {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transform: scale(1.1);
+}

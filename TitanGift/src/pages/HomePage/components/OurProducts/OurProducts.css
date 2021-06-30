@@ -1,0 +1,19 @@
+.our-products {
+  margin-top: 40px;
+  width: 100%;
+}
+.title_detail {
+  line-height: 40px;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 20px;
+}
+.our-product__title {
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 20px;
+  color: #fff;
+  background-color: var(--primary-color);
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}

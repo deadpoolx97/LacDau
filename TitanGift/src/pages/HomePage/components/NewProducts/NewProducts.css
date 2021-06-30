@@ -1,0 +1,112 @@
+.new-product {
+  margin-top: 40px;
+  width: 100%;
+}
+.title_detail {
+  line-height: 40px;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 20px;
+}
+.new-product__title {
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 20px;
+  color: #fff;
+  background-color: var(--primary-color);
+  width: 180px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.new-product__list {
+  margin-top: 40px;
+  display: flex;
+}
+
+.new-product__item-link {
+  border: 2px solid #29a07e;
+  border-radius: 8px;
+  position: relative;
+}
+.new-product__item-link:hover {
+  transform: scale(1.01);
+}
+.new-product__img {
+  width: 100%;
+  border-radius: 16px;
+  padding: 10px;
+}
+.new-product__item-detail {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.new-product__item-title {
+  color: var(--primary-color);
+  line-height: 40px;
+}
+.new-product__item-price {
+  font-weight: 100;
+  line-height: 40px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.new-product__item-link:hover .product-hover {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.new-product__item-link:hover .product-hover__icon {
+  display: block;
+}
+.product-hover__icon {
+  background-color: transparent;
+  color: red;
+  position: absolute;
+  top: 6%;
+  right: 8%;
+  display: none;
+}
+.quick-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #000;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px 0;
+}
+.quick-icon:hover {
+  color: var(--primary-color);
+}
+.product-hover {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  width: 100%;
+  height: 16%;
+  bottom: 0;
+  display: none;
+  transform-origin: bottom center;
+  animation: rotateX ease-in forwards 0.2s;
+  opacity: 0.8;
+}
+
+@keyframes rotateY {
+  from {
+    opacity: 0;
+    transform: rotateY(-100deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+.product-hover:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,44 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": 0,
+        "no-unused-vars": 1,
+        "no-useless-escape": 1,
+        "react/prop-types": [
+            0,
+            {
+                "ignore": [
+                    "children"
+                ]
+            }
+        ],
+        "no-extra-boolean-cast": 0,
+        "react/display-name": 0,
+        "react/jsx-key": 1,
+        "react/no-children-prop": 1,
+        "no-dupe-keys": 1,
+        "no-empty": 1,
+        "no-prototype-builtins": 1,
+        "no-case-declarations": 1,
+        "require-atomic-updates": 0
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
