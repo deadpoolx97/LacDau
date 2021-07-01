@@ -31,6 +31,18 @@ const HomePage = () => {
           <News />
         </div>
       </div>
+      <div className="background-maintain">
+        <img
+          className="background-maintain_img"
+          src="https://www.xtrafondos.com/en/descargar.php?id=4011&resolucion=3840x2160"
+        />
+        <div className="infor">
+          <img
+            className="infor-img"
+            src="https://product.hstatic.net/1000124630/product/197614310_1513160419030350_7483541533790665609_n_12f2f53db26840a5a8ea344568133f9c_large.jpg"
+          />
+        </div>
+      </div>
     </div>
   );
 };

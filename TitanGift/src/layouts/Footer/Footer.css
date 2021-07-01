@@ -4,6 +4,7 @@
   border-top: 2px solid var(--primary-color);
   background-image: url("https://storage.googleapis.com/cdn.nhanh.vn/store2/75104/bn/Untitled-1.jpg");
   object-fit: cover;
+  height: 400px;
 }
 .footer__heading {
   font-size: 14px;

@@ -1,10 +1,10 @@
+import Footer from "layouts/Footer";
+import Header from "layouts/Header";
+import ScrollTopArrow from "layouts/ScrollTopArrow";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./App.css";
-import Header from "layouts/Header";
-import Footer from "layouts/Footer";
 import RouterUrl from "router";
-import ScrollTopArrow from "layouts/ScrollTopArrow";
+import "./App.css";
 
 const App = () => {
   return (

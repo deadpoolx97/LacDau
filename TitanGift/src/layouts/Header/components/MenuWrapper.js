@@ -14,21 +14,14 @@ const MenuWrapper = () => {
           </div>
           <div className="row menu  ">
             <div className="col l-3 m-12 c-12 header-menu__list-item-menu-all  ">
-              <a
-                href="/#"
-                className="header-menu__list-item-link header-menu__list-item-menu"
-              >
+              <a href="/#" className="header-menu__list-item-link header-menu__list-item-menu">
                 Danh mục sản phẩm
                 <i className="fa fa-sort-down header-down" />
               </a>
               <ul className="header-menu__subnav">
                 <li className="header-menu__subnav-item header-menu__subnav-item-all">
                   <Link to="/allItem" className="header-menu__subnav-item-link">
-                    <img
-                      src="./images/all-icon.png"
-                      alt=""
-                      className="header-menu__subnav-item-img"
-                    />
+                    <img src="./images/all-icon.png" alt="" className="header-menu__subnav-item-img" />
                     TẤT CẢ SẢN PHẨM
                     <i className="fa fa-caret-right fas-right" />
                   </Link>
@@ -97,78 +90,44 @@ const MenuWrapper = () => {
                 </li>
                 <li className="header-menu__subnav-item">
                   <Link to="/allItem" className="header-menu__subnav-item-link">
-                    <img
-                      src="./images/earth-icon.png"
-                      alt=""
-                      className="header-menu__subnav-item-img"
-                    />
+                    <img src="./images/earth-icon.png" alt="" className="header-menu__subnav-item-img" />
                     Sống xanh bảo vệ hành tinh
                   </Link>
                 </li>
                 <li className="header-menu__subnav-item">
                   <Link to="/allItem" className="header-menu__subnav-item-link">
-                    <img
-                      src="./images/gift-his-icon.png"
-                      alt=""
-                      className="header-menu__subnav-item-img"
-                    />
+                    <img src="./images/gift-his-icon.png" alt="" className="header-menu__subnav-item-img" />
                     Tặng gì cho người ta nhỉ ?
                   </Link>
                 </li>
                 <li className="header-menu__subnav-item">
                   <a href="/#" className="header-menu__subnav-item-link">
-                    <img
-                      src="./images/couple-icon.png"
-                      alt=""
-                      className="header-menu__subnav-item-img"
-                    />
+                    <img src="./images/couple-icon.png" alt="" className="header-menu__subnav-item-img" />
                     Lựa đồ có đôi có cặp
                   </a>
                 </li>
                 <li className="header-menu__subnav-item">
                   <Link to="/manages" className="header-menu__subnav-item-link">
-                    <img
-                      src="./images/go-icon.png"
-                      alt=""
-                      className="header-menu__subnav-item-img"
-                    />
+                    <img src="./images/go-icon.png" alt="" className="header-menu__subnav-item-img" />
                     Đồ cần thiết cho 1 chuyến đi
                   </Link>
                 </li>
               </ul>
             </div>
             <div className=" header-list ">
-              <Link
-                to="/manages"
-                className="col l-3  m-12 c-12 header-menu__list-item-menu"
-              >
-                <div className="header-menu__list-item-link">
-                  Du hành khắp nơi
-                </div>
+              <Link to="/manages" className="col l-3  m-12 c-12 header-menu__list-item-menu">
+                <div className="header-menu__list-item-link">Du hành khắp nơi</div>
               </Link>
-              <Link
-                to="/products"
-                className="col l-3  m-12 c-12 header-menu__list-item-menu"
-              >
-                <div className="header-menu__list-item-link">
-                  Câu chuyện kẻ du hành
-                </div>
+              <Link to="/products" className="col l-3  m-12 c-12 header-menu__list-item-menu">
+                <div className="header-menu__list-item-link">Câu chuyện kẻ du hành</div>
               </Link>
-              <Link
-                to="/newYear"
-                className="col l-3  m-12 c-12 header-menu__list-item-menu"
-              >
+              <Link to="/newYear" className="col l-3  m-12 c-12 header-menu__list-item-menu">
                 <div to="/newYear" className="header-menu__list-item-link">
                   Tết
                 </div>
               </Link>
-              <Link
-                to="/map"
-                className="col l-3  m-12 c-12 header-menu__list-item-menu hide"
-              >
-                <div className="header-menu__list-item-link">
-                  Cửa hàng - liên hệ
-                </div>
+              <Link to="/map" className="col l-3  m-12 c-12 header-menu__list-item-menu hide">
+                <div className="header-menu__list-item-link">Cửa hàng - liên hệ</div>
               </Link>
             </div>{" "}
             <label htmlFor="chk" className="hide-menu-btn">

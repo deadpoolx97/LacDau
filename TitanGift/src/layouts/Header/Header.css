@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 .header-navbar-list {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   list-style: none;
 }
@@ -256,7 +256,7 @@
   width: 100%;
 }
 .a {
-  display: flex;
+  display: flex !important;
 }
 .header-menu__wrap {
   height: 100%;
